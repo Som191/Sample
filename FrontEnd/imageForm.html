@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Upload Form</title>
+  <!-- Your CSS styles go here -->
+</head>
+<body>
+
+  <form id="imageForm" action="/upload" method="post" enctype="multipart/form-data">
+    <label for="imageInput">Select an image:</label>
+    <input type="file" id="imageInput" name="image" accept="image/*">
+    
+    <button type="button" onclick="uploadImage()">Upload Image</button>
+  </form>
+
+  <script src="fronJs.js"></script>
+</body>
+</html>
